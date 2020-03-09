@@ -1,0 +1,15 @@
+server:
+  port: 8989
+spring:
+  redis:
+    host: 117.78.27.55
+    port: 6379
+    password: P;)R]sHw[Bkc7f3=d
+    jedis:
+      pool:
+        min-idle: 8
+        max-idle: 500
+        max-active: 2000
+        max-wait: 10000
+    timeout: 0
+
